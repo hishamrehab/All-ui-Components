@@ -1,0 +1,40 @@
+{
+  "name": "project_fitness_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://Dev5G.github.io/Tailwindcss-React-Responsive-Navbar",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.43",
+    "@heroicons/react": "^2.1.5",
+    "@material-tailwind/react": "^2.1.10",
+    "react": "^18.3.1",
+    "react-alice-carousel": "^2.9.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-slick": "^0.23.13",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
